@@ -6,5 +6,5 @@ applications:
   name: redis2mongo
   host: redis2mongo
   disk_quota: 1024M
- 
+  command: sh run.sh
   buildpack: python_buildpack
