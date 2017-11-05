@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//readMysql/admin.py=utf-8
+encoding//readMysql/apps.py=utf-8
+encoding//readMysql/models.py=utf-8
+encoding//readMysql/tasks.py=utf-8
+encoding//readMysql/tests.py=utf-8
+encoding//readMysql/views.py=utf-8
+encoding//readRedis/rRedis.py=utf-8
