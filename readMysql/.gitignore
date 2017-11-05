@@ -1,2 +1,4 @@
 /tasks.pyc
 /views.pyc
+/.gitignore
+/migrations/
