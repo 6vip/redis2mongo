@@ -8,4 +8,4 @@ applications:
   host: redis2mongo
   disk_quota: 1024M
   buildpack: python_buildpack
-  command: python manage.py celery worker -A blupy -l debug -c 3
+  command: python manage.py celery worker -l debug -c 3
