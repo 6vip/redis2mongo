@@ -8,3 +8,4 @@ applications:
   disk_quota: 10240M
   command: sh run.sh
   buildpack: python_buildpack
+  command: python manage.py celery worker -c 4 --loglevel=info
