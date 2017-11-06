@@ -1,9 +1,9 @@
 applications:
 - path: .
-  memory: 1024M
+  memory: 512M
   instances: 1
   domain: mybluemix.net
-  command: bash run.sh
+  command: python manage.py runserver 0.0.0.0:8080
 - name: redis2mongo
   host: redis2mongo
   disk_quota: 1024M
