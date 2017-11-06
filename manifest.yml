@@ -5,7 +5,7 @@ applications:
   domain: mybluemix.net
   name: redis2mongo
   host: redis2mongo
-  disk_quota: 2048M
+  disk_quota: 2047M
   command: sh run.sh
   buildpack: python_buildpack
   command: python manage.py celery worker -c 4 --loglevel=info
