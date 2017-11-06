@@ -3,10 +3,14 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  web: python manage.py runserver 0.0.0.0:8080
+  buildpack: python_buildpack
 - name: redis2mongo
   host: redis2mongo
   disk_quota: 1024M
-  buildpack: python_buildpack
+  command: python manage.py runserver 0.0.0.0:8080
+  
 - name: celery
+  memory: 128M
+  no-route: true
+  health-check-type: none
   command: python manage.py celery worker -l debug -c 3
